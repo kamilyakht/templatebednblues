@@ -1092,9 +1092,10 @@ section {
 }
 .events img{
   display:flex;
-  height: 150px;
+  height: 130px;
   width: 200px;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .events .event-item h3 {
