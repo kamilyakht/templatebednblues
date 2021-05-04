@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(89, 114, 146, 0.692);
+  background: rgba(85, 112, 146, 0.692);
   border-bottom: 1px solid rgba(12, 11, 9, 0.6);
   transition: all 0.5s;
   z-index: 997;
@@ -453,7 +453,7 @@ img{
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.397);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -745,7 +745,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/25.jpg") center center;
+  background: url("../img/26.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -753,7 +753,7 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.363);
+  background: rgba(0, 0, 0, 0.288);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -846,7 +846,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us{
-  background: url("../img/25.jpg") center center;
+  background: url("../img/26.jpg") center center;
   background-size: cover;
   position: relative;
 }
@@ -990,7 +990,11 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
-  background-color: #698a8f;
+  background-color: rgb(81, 105, 131);
+}
+.specials img{
+  height: 130px;
+  width: 200px;
 }
 
 .specials .nav-tabs {
@@ -1351,10 +1355,18 @@ section {
 /*--------------------------------------------------------------
 # Chefs
 --------------------------------------------------------------*/
+.chefs{
+  overflow: hidden;
+  background-color: #698a8f;
+}
+.chefs img{
+  height: 130px;
+  width: 200px;
+}
 .chefs .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background:#698a8f;
   position: relative;
   overflow: hidden;
 }
@@ -1436,6 +1448,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+    overflow: hidden;
+    background-color: #698a8f;
+}
 .contact .info {
   width: 100%;
 }
