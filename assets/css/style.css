@@ -1281,7 +1281,11 @@ section {
   background-size: cover;
   position: relative;
 }
-
+@media (min-width: 1024px) {
+  .gallery {
+    background-attachment: fixed;
+  }
+}
 /*--------------------------------------------------------------
 # Chefs
 --------------------------------------------------------------*/
