@@ -1356,14 +1356,23 @@ section {
   overflow: hidden;
   border-right: 3px solid #454035;
   border-bottom: 3px solid #454035;
+  background-color: rgba(17, 18, 19, 0.514);
+
 }
 
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
+  position: center;
 }
 
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
+  position: center;
+}
+.gallery{
+  background:url(../img/BDMV-Clip80.mov)center center no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /*--------------------------------------------------------------
