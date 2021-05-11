@@ -770,7 +770,7 @@ section {
 }
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.288);
+  background: rgba(0, 0, 0, 0.175);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -887,6 +887,15 @@ section {
   font-size: 28px;
   font-weight: 700;
   color: rgb(255, 255, 255);
+}
+.why-us:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.175);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .why-us .box h4 {
