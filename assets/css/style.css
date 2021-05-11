@@ -205,6 +205,10 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
+#header.log img{
+  max-height: 70px;
+  max-width: 80px;
+}
 img{
   width: 100px;
 }
@@ -990,7 +994,20 @@ section {
   color: #fff;
 }
 
-.events .container {
+.section-title img{
+  float: right;
+  max-height: 100px;
+  max-width: 100px;
+  position: relative;
+  display: block;
+ 
+}
+.section-title .logies{
+  max-height: 100px;
+  max-width: 120px;
+}
+
+.events .container {s
   position: relative;
 }
 
@@ -1068,6 +1085,10 @@ section {
   background-color: #cda45e;
 }
 
+.log {
+  max-height: 40px;
+  width: 100px;
+}
 /*--------------------------------------------------------------
 # Book A Table
 --------------------------------------------------------------*/
@@ -1416,6 +1437,10 @@ section {
   margin-bottom: 0;
   font-size: 14px;
   color: #bab3a6;
+}
+iframe{
+
+
 }
 
 .contact .info .open-hours, .contact .info .email, .contact .info .phone {
